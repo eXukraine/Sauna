@@ -1,0 +1,148 @@
+@media screen and (max-device-width:420px) and (min-device-width: 320px) {
+	main 	{
+		padding: 0 30px;
+	}
+	header {
+		padding: 0 30px;
+	}
+	.logo_img{
+		display: none;
+	}
+	.logo {
+		padding: 0 2px;
+		margin: auto;
+	}
+	.logo ul {
+		margin: auto
+	}
+	h1, h4 {
+		margin-left: 22px;
+		top: 1px;
+
+	}
+	h1 {
+		font-size: 1.8rem;
+	}
+	.phones {
+		display: none;
+	}
+	.phones_2 p {
+		font-size: 0.8rem;
+	}
+	.phones_2{
+		display: flex;
+		flex: 1;
+		padding-left: 3px;	
+		padding-top: 10px;	
+		margin: auto;
+	}
+	.phones_2 ul {
+		margin: auto;
+	}
+	.phones_2 a {
+		color: blue;
+	}
+	.horizontal {
+		padding-top: 30px;
+		
+	}
+	#owl-carusel {
+		width: 320px;
+		height: auto;
+		
+	}
+	#tab-1, #tab-2, #tab-3, #tab-4 {
+		
+	}
+	#tab-1 p, , #tab-3 p, #tab-4 p {
+		font-size: 1.2rem;
+	}
+	#tab-2 p {
+		font-size: 1rem;
+	}
+	#tab-2 h2{
+		font-size: 1.3rem;
+	}
+	.tab-2_right  {
+		padding-left: 3px;
+		padding-right: 0px;
+		width: 130px;
+	}
+	.tab-2_left	 {
+		padding-right: 0px;
+	}
+	.chan_row_1, .chan_row_2, .chan_row_3 {
+		flex-wrap: wrap;
+	}
+	.chan_row_1 p, .chan_row_2 p, .chan_row_3 p {
+			
+	}
+	.chan_row_2 img {
+		order: 1;
+	}
+	.chan_row_2 p {
+		order: 2;
+	}
+	.chan img {
+		width: 270px;
+		border-radius: 40px;
+		margin: auto;
+		padding-bottom: 20px;
+		width: 90%;
+	}
+
+}
+
+/*Media max size 568*/
+@media screen and (max-device-width:740px) and (min-device-width: 421px){
+
+	main {
+		padding: 0 50px;
+	}
+	main p {
+		padding: 0 5px;
+	}
+	header {
+		padding: 0 10px;
+	}
+	.logo_img {
+		display: none;
+	}
+	.logo {
+		padding: 0 2px;
+	}
+	h1, h4 {
+		margin-left: 50px;
+		top: 20px;
+	}
+	.phones {
+		padding-right: 50px;
+	}
+	.horizontal {
+		padding: 20px 0;
+	}
+	.chan p {
+	font-size: 1.2rem;
+    text-align: center;
+    flex: auto;
+	}
+	.chan_row_1, .chan_row_2, .chan_row_3 {
+		flex-wrap: wrap;
+		box-sizing: border-box;
+	}
+	.chan_row_1 p, .chan_row_2 p, .chan_row_3 p {
+			padding: 0 5px;
+	}
+	.chan_row_2 img {
+		order: 1;
+	}
+	.chan_row_2 p {
+		order: 2;
+	}
+	.chan img {
+		width: 270px;
+		border-radius: 40px;
+		margin: auto;
+		padding-bottom: 10px;
+	}
+}

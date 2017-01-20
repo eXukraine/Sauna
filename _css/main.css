@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:visited, a:active {
+	color:black;
+}
+p {
+	font-family: "Pattaya", sans-serif;
+	font-size: 1.5rem;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family:"Pattaya", serif;
+	color: #ff8921;
+}
+.hide {
+	display: none;
+}
+html {
+	background-color: #ccc;
+	background-repeat: repeat-y;
+	background-size:contain; 
+	font-size: 16px;
+	background-image: url(../_images/body.png);
+}
+
+
+header {
+	background-color: inherit;
+	height: 110px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+body {
+	max-width: 960px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.logo {
+	padding-top: 10px;
+	flex-wrap: wrap;
+}
+.logo img {
+	border-radius: 17px;
+}
+.phones {
+	padding-top: 10px;
+	margin-left: auto;
+}
+.phones p {
+	font-size: 1rem;
+}
+.phones a {
+	color: rgb(100, 0, 255);
+	font-size: 1.2rem;
+}
+.phones_2 {
+	display: none;
+}
+.horizontal {
+	display: flex;
+	justify-content: space-around;
+	padding:20px 0px;
+	flex-wrap: wrap;
+}
+.horizontal p {
+	font-size: 1.4rem;
+}
+.horizontal ul {
+	align-items: center;
+  height: 50px;
+}
+#mudrost_head {
+	display: flex;
+	justify-content: flex-end;
+}
+.mudrost {
+	font-family: "Pattaya", sans-serif;
+	font-size: 1.5rem;
+
+}
+#mudrost_img {
+	width: 200px;
+	height: 100px;
+}
+h1, h4 {
+	  margin-left: 106px;
+    top: -100px;
+    position: relative;
+}
+article p {
+	text-indent: 50px;
+	text-align: justify;
+}
+.img_mudr {
+	display: flex;
+	justify-content: center;
+}
+.item img {
+	width: 100%;
+}
+
+
+/*Section Uslugi TAB - 2*/
+
+#section_uslugi {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+.tab-2_left {
+	flex: 1;
+	border-right: solid 2px #808080;
+	padding-right: 20px;
+
+}
+.tab-2_left h2, .tab-2_right  h2{
+	padding-bottom: 20px;
+}
+.tab-2_right {
+	flex: 1;
+	padding-left: 20px;
+
+}
+
+/*Section School*/
+
+.school p{
+	font-size: 1.25rem;
+	text-align: justify;	
+}
+
+
+/*4an SECTION*/
+.chan 	{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.chan img {
+	height: 300px;
+	width: 300px;
+	border-radius: 50px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 5px;
+	
+}
+.chan_img_1 {
+
+}
+.chan p {
+	font-size: 1.2rem;
+	flex: 2;
+	text-align: justify;
+}
+.chan_row_1 {
+	display: flex;
+}
+.chan_row_2 {
+	display: flex;
+}
+.chan_row_3 {
+	display: flex;
+}
+footer {
+	height: 50px;
+	width: 100%;
+	background-color: #ccc;
+}
